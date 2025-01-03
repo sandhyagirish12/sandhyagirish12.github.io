@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    font-family: sans-serif;
+  }
+ 
+  .main {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0  5%;
+  }
+  
+  .logo {
+    color: white;font-size: 30px;
+  }
+  .logo span {
+    color: none;
+  }
+  .main ul {
+    list-style: none;
+    display: flex;
+  }
+  .main img {
+    padding-left: 3%;
+    height: 120px;
+    width: 100%;
+    left: 0px;
+  }
+  .main img a {
+    padding-left: 0%;
+  }
+
+  .main ul li {
+    padding: 10px 30px;
+    position: relative;
+  }
+  .main ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: all 0.3s;
+  }
+  .main ul li a:hover {
+    color: rgb(7, 7, 7);
+  }
+  .menu {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(navbg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    
+  }

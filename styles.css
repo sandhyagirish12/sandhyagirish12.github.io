@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0569b5;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #0569b5;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color:#0569b5;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #07b7e3;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  form label {
+    flex-basis: 30%;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="month"] {
+    flex-basis: 70%;
+    margin-bottom: 1rem;
+  }
+  
+  form button {
+    flex-basis: 100%;
+    margin-top: 1rem;
+  }
+ 

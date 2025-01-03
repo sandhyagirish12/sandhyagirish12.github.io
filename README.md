@@ -1,2 +1,2 @@
 # mfs_project.github.io
-First Live Personal Project : HTML, CSS, JS
+Project By Batch 83-84 : HTML, CSS, JS
