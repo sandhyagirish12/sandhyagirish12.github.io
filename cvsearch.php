@@ -17,16 +17,16 @@
       <li><a href="https://www.aytech.co.in/">
         <img src="ay.jpg" alt="Example" style="width:50px;height:50px;" style="position: absolute; top: 0; left: 0;">
       </a></li>
-      <li><a href="home.php">Home</a></li>
-      <li><a href="index.php">Placement Tracking</a></li>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="index.html">Placement Tracking</a></li>
       <li><a href="#">My Account</a></li>
       <div class="dropdown">
       <button class="dropbtn">Manage</button>
     <div class="dropdown-content">
-      <a href="jobtitle.php">Job Title</a>
-      <a href="organisation.php">Organisation</a>
+      <a href="jobtitle.html">Job Title</a>
+      <a href="organisation.html">Organisation</a>
       </div>
-      <li><a href="landingpage.php">Go Back</a></li>
+      <li><a href="landingpage.html">Go Back</a></li>
     </ul>
   </nav>
     <div  class="container">
